@@ -1,0 +1,80 @@
+body {
+    font-weight:bold;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
+  /* background-image: url("https://static.vecteezy.com/system/resources/previews/002/395/537/non_2x/abstract-blue-and-white-geometric-background-free-vector.jpg"); */
+  background-image: url("https://media.istockphoto.com/photos/white-big-cumulus-clouds-picture-id1191343717?b=1&k=20&m=1191343717&s=170667a&w=0&h=eKOE-Cd7jYsqyKLDTbZew9-Yd_rp8WuwqoGRblBZ8BI=");
+background-size: cover;
+  background-color: rgb(13, 229, 245);
+}
+#total {
+  font-size: 35px;
+  padding: 20px;
+  color: rgb(39, 5, 5);
+}
+table {
+  width: 183px;
+  height: 189px;
+  border: 5px solid rgb(2, 10, 17);
+}
+td {
+  border: 3px solid;
+  padding: 20px;
+}
+.container {
+  overflow: hidden;
+}
+.tab {
+  float: left;
+}
+.tab-2 {
+  margin-left: 50px;
+}
+.tab-2 input {
+  display: block;
+  margin-bottom: 10px;
+}
+tr {
+  transition: all 0.25s ease-in-out;
+}
+td:hover {
+  background-color: rgb(124, 230, 237);
+  cursor: pointer;
+}
+button {
+  font-size: large;
+  padding: 5px;
+  border-radius: 5px;
+  width: 90px;
+  margin: 5px;
+  background-color: rgb(13, 127, 227);
+  border: none;
+  transition: ease-in-out;
+  box-shadow: 0px 0px 7px 1px;
+}
+button:hover {
+  transform: scale(1.05);
+}
+
+input {
+  width: 200px;
+  background-color: rgba(240, 248, 255, 0.838);
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-self: auto;
+  }
+  .tab-2 {
+    margin-left: 0px;
+  }
+}

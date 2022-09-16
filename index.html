@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add Remove HTML Table Row</title>
+    <meta charset="windows-1252" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>SUM OF TABLE</h1>
+    <div class="container">
+      <div class="tab tab-1">
+        <table id="table" border="1">
+          <tr>
+            <td>20</td>
+            <td>33</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>32</td>
+            <td>3</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <td>44</td>
+            <td>55</td>
+            <td>20</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="tab tab-2">
+        1st Input :<input type="number" name="fInput" id="fInput" />
+         2nd Input :<input type="number" name="sInput" id="sInput" /> 
+        3rd Input :<input
+          type="number"
+          name="tInput"
+          id="tInput"
+        />
+
+        <button onclick="addTableRow();">Add</button>
+        <button onclick="removeRow();">Remove</button>
+      </div>
+    </div>
+    <div id="total"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
